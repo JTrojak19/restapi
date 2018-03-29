@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+tasks:
+    type:     rest
+    prefix:   /api
+    resource: AppBundle\Controller\TaskController
